@@ -150,7 +150,7 @@ h2,h3{
     border-radius: 50%;
     color: #fff;
 }
-#menu-btn{
+#centro .topo .topo-item  #menu-btn{
     width: 2.5rem;
     height: 2.5rem;
     line-height: 2.5rem;
@@ -159,8 +159,8 @@ h2,h3{
     border-radius: 50%;
     color: #fff;
     margin-right: 0.93rem;
-    display: none;
     cursor: pointer;
+    display: none;
 }
 #centro .topo .topo-item:nth-child(1) a{
     background-color: #4f94e4;
@@ -485,10 +485,10 @@ h2,h3{
     #direita{
         left: -110%
     }
-    #menu{
+    #direita #voltar, #esquerda #fechar{
         display: inline-block!important;
     }
-    #menu-btn{
+    #centro .topo .topo-item .setas #menu, #menu-btn{
         display: inline-block!important;
     }
 }
